@@ -13,35 +13,73 @@
 
 <body>
     <header>
-        <!--ENLACE INICIO-->
-       <a href="../index.html"><img id="logotipo" src="../assets/IMG_6417.jpg" alt="Volver a inicio"></a> 
-        <h1>
-        ESPEJOS
-    </h1>
 
-</header>
-    
-    <p>Espejos decorativos, ideales para salones y habitaciones que requieran un elemento TOP</p>
-    
-    <section>
-        <ul id="imagenes-muebles">
-            <li><img src="../assets/Espejo1.jpg" alt="Espejo1"></li>
-            
-            <li><img src="../assets/Espejo2.jpg" alt="Espejo2"></li>
-            
-            <li><img src="../assets/Espejo3jpg.jpg" alt="Espejo3"></li>
-            
-            <li><img src="../assets/Espejo4jpg.jpg" alt="Espejo4"></li>
-        </ul>
-      
-    </section>
+            <img id="logotipo" src="../assets/IMG_6417.jpg" alt="Logo Top Home">
 
+            <!--ENLACES RELATIVOS-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html" target="_blank">TOP HOME</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./muebles-para-cocina.html" target="_blank">Cocina</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./muebles-para-living.html" target="_blank">Living</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./muebles-para-exterior.html" target="_blank">Exteriores</a>
+                      </li>                           
+                  </div>
+                </div>
+              </nav>
+            
+    </header>
+
+    <main>
+
+        <h1>Espejos</h1>
+
+        <p>Espejos decorativos, ideales para salones y habitaciones que requieran un elemento TOP</p>
+
+            <div id="carouselExample" class="carousel slide col-6 container-fluid">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/Espejo1.jpg" class="d-block w-100" alt="Espejo1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/Espejo2.jpg" class="d-block w-100" alt="Espejo2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/Espejo3jpg.jpg" class="d-block w-100" alt="Espejo3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/Espejo4jpg.jpg" class="d-block w-100" alt="Espejo4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+    </main>
+    
     <footer>
-    
-        </footer> Nos puedes encontrar en los siguientes enlaces:
+
+        <h4>Nos puedes encontrar en los siguientes enlaces:</h4> 
         <ul>
            <li>
-            <button type="button" class="btn btn-link">https://www.instagram.com/tophome.cl/?hl=es-la"target="blank"</button>
+            <button type="button" class="btn btn-link"><a href="https://www.instagram.com/tophome.cl/?hl=es-la"target="blank"></a></button>
             <img class="Logo-RS" src="../assets/Logo Instagram.png" alt="Logo Instagram"><a href="https://www.instagram.com/tophome.cl/?hl=es-la"target="blank">Top Home instagram</a>
            </li> 
            <li>
@@ -53,6 +91,9 @@
         </ul> 
         
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     
 </body>
 

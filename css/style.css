@@ -13,6 +13,7 @@
 }
 
 header {
+    margin-bottom: 50px;
     background-color: gray;
     display: flex;
     align-items: center;
@@ -121,12 +122,14 @@ h2 {
 }
 
 video {
-    width: 300px;
+    background-color: beige;
+    width: 400px;
     border-radius: 20px;
     margin: 20px;
 }
 
 footer {
+    margin-top: 50px;
     padding-top: 20px;
     height: 150px;
     text-align: center;
@@ -150,10 +153,11 @@ footer ul {
 }
 
 h1 {
-    background-color: gray;
-    color: black;
-    font-weight: 900;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: beige;
     font-size: 100px;
+    color:black;
 
 }
 
@@ -163,7 +167,7 @@ body section ul li img {
 
 }
 
-se
+
 #carousel-itemactive {
     display: flex;
     padding: 30px;
@@ -171,9 +175,19 @@ se
 }
 
 p {
-    font-size: 50px;
+    padding: 50px;
+    font-size: 30px;
     text-align: center;
     font-weight: bolder;
     font-family: 'Libre Franklin'
+}
+
+h3 {
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: beige;
+    font-size: 80px;
+    color:black;
+
 }
 
